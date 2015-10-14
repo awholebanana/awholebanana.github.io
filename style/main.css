@@ -1,3 +1,17 @@
 body{
-  background-image: url(../images/awholebanana.png);
+  background-image: url(../images/awholebanana.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#promo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-banana{
+  background-color: white;
 }
