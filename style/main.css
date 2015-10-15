@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700|Crimson+Text);
+html{
+  height: 100%;
+}
 
 body{
+  min-height: 100%;
   background-image: url(../images/awholebanana.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
