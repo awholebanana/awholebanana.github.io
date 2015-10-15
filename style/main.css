@@ -1,17 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Crimson+Text);
+
 body{
-  background-image: url(../images/awholebanana.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url(../images/awholebanana.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   background-size: cover;
 }
 
+p{
+  font-family: 'Crimson Text', serif;
+}
+
+h1, h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 #promo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .hello-banana{
   background-color: white;
+  margin: 30px;
+  padding: 20px;
+  width: 40%;
 }
