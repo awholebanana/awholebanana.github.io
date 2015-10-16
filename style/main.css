@@ -45,3 +45,13 @@ a:hover{
   width: 100%;
   height: auto;
 }
+
+#mc_embed_signup{
+  background:#fff; clear:left;
+  font-family: 'Crimson Text', serif;
+}
+
+
+#mc_embed_signup .button{
+  color: #BEDDF4;
+}
