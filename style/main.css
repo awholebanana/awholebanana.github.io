@@ -51,6 +51,10 @@ a:hover{
   font-family: 'Crimson Text', serif;
 }
 
+#mc_embed_signup form{
+  padding: 0;
+}
+
 
 #mc_embed_signup .button{
   background-color: #BEDDF4;
